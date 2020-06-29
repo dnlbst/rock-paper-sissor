@@ -1,0 +1,97 @@
+body {
+    background: rgb(228, 193, 169);
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1em;    
+  }
+
+
+.container{
+  text-align: center;
+  background:cornflowerblue;
+  border: 2px solid;
+  border-radius: 25px 25px 0px 0px;
+  margin: 0px 15px;
+}
+
+.hands{
+  background-color: rgb(233, 74, 74);
+  display: flex;
+  border: 2px solid;
+  border-radius: 0px 0px 25px 25px;
+  margin: 0px 15px;
+}
+
+.card{
+  margin: 2% auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.btnR{
+    background-color: rgb(77, 165, 77);
+    padding: 5% 25%;
+    font-size: 1.5em;
+  }
+
+.btnP{
+    background-color: rgb(202, 196, 110);
+    color:black;
+    padding: 5% 35%;
+    font-size: 1.5em;
+  }
+
+.btnS{
+    background-color: rgb(189, 38, 11);
+    padding: 5% 25%;
+    font-size: 1.5em;
+}
+
+
+/* END Popup */
+
+button{
+  display: block;
+  margin: 20px auto;
+  background: crimson;
+  color: white;
+  border: 0;
+  padding: 6px 10px;
+}
+
+.popup-wrapper{
+  background: rgba(223, 166, 166, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popup{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:black;
+  width: 75%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: white;
+  position: relative;
+}
+
+.popup a{
+  text-decoration: none;
+  background: crimson;
+  color: white;
+  border: 0;
+  padding: 7px 10px;
+}
+
+.popup-close{
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;  
+}

@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://kit.fontawesome.com/9b64fcb020.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dan's Rock-Paper-Sissor</title>
+</head>
+<body>
+<br>
+<!-- Introduction + Score -->
+<div class="container">
+    <h1 class="h1">Let's play Rock Paper Sissor</h1>
+    <h3 class="description">we play against the computer til one gets 3 winning points.<br>Good Luck!<br>Actual Score:</h2>
+    
+    <h2 class="score">Computer: <span class="scorePc">0</span> - vs - Player: <span class="scoreUser">0</span> </p>
+    
+    <h4 class="result">Let's go!</h4>
+    <br>
+    <br>
+</div>  
+
+  <div class="hands">
+    <div class="card">    
+      <i class="fas fa-gem fa-2x"></i>
+      <p class="card-text">"Rock, can break the sissor but can be wrapped in paper!"</p>
+      <button type="button" class="btnR" id="btn" value="rock">Rock!</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-file fa-2x"></i>
+      <p class="card-text">"Paper can wrap the rock but can be cut by sissor!"</p>
+      <button type="button" class="btnP" id="btn" value="paper">Paper!</button>
+    </div>
+    <div class="card">
+      <i class="fa fa-scissors fa-2x" aria-hidden="true"></i>
+      <p class="card-text">"Sissor can cut the paper, but can be broken by the rock!"</p>
+      <button type="button" class="btnS" id="btn" value="sissor">Sissor!</button>
+    </div>
+  </div>
+
+  <!-- End Game Popup -->
+  
+  <div class="popup-wrapper">
+    <div class="popup">
+      <div class="popup-close">x</div>
+      <div class="popup-content">
+        <h2>The WINNER</h2>
+        <p class="popPara">isn't you!</p>
+        <a href="#" class="popA">new game?</a>
+      </div>
+    </div>
+  </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
